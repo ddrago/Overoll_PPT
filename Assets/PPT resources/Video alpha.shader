@@ -10,11 +10,12 @@
           Tags{ "Queue" = "Transparent" "RenderType" = "Transparent" } 
 
           Cull off
-          ZWrite off
+          ZWrite On
           AlphaToMask On
+          ColorMask RGB
 
           CGPROGRAM 
-          #pragma surface surf NoLighting keepalpha noshadow nofog nometa nolightmap noambient nodynlightmap noforwardadd nolppv noshadowmask 
+          #pragma surface surf NoLighting keepalpha  addshadow  
 
           fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten) { 
                fixed4 c; 
