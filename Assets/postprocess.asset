@@ -55,12 +55,12 @@ MonoBehaviour:
       reflection:
         blendType: 0
         reflectionQuality: 2
-        maxDistance: 100
-        iterationCount: 256
-        stepSize: 3
-        widthModifier: 0.5
-        reflectionBlur: 1
-        reflectBackfaces: 0
+        maxDistance: 195
+        iterationCount: 592
+        stepSize: 8
+        widthModifier: 5
+        reflectionBlur: 0.1
+        reflectBackfaces: 1
       intensity:
         reflectionMultiplier: 1
         fadeDistance: 100
@@ -69,17 +69,17 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      focusDistance: 6.53
-      aperture: 0.4
+      focusDistance: 5.76
+      aperture: 0.2
       focalLength: 50.21
       useCameraFov: 1
       kernelSize: 3
   motionBlur:
     m_Enabled: 1
     m_Settings:
-      shutterAngle: 91
+      shutterAngle: 30
       sampleCount: 16
       frameBlending: 0
   eyeAdaptation:
@@ -109,7 +109,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         intensity: 3
   colorGrading:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       tonemapping:
         tonemapper: 1

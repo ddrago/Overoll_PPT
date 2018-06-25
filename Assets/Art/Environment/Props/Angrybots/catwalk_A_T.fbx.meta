@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: afc6d1eee53f0ef428ed084d06a488a5
-timeCreated: 1529361045
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -42,7 +40,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert9.002
-    second: {fileID: 2100000, guid: 9ee6bc1f67ba0854bbe558d726383ddb, type: 2}
+    second: {fileID: 2100000, guid: 0fbc8f13e74a35743a0d70c6eee984af, type: 2}
   materials:
     importMaterials: 1
     materialName: 2
@@ -61,6 +59,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
