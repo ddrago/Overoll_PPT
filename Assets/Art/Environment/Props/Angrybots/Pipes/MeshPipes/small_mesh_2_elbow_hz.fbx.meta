@@ -14,7 +14,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: allPipes_lambert2
-    second: {fileID: 2100000, guid: c49814dc60284ff478a884cb2e8f1940, type: 2}
+    second: {fileID: 2100000, guid: b9905d12f543f6b4981c25729a0af9ef, type: 2}
   materials:
     importMaterials: 1
     materialName: 3
@@ -33,6 +33,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
