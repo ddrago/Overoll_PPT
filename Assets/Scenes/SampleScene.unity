@@ -1126,6 +1126,95 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114135478959149120, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114135478959149120, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114999820829227352, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114999820829227352, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190149920616984, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190149920616984, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114481726979905988, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114481726979905988, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114794191548005042, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114794191548005042, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018854037070474, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018854037070474, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114970342932883080, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114970342932883080, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_padding
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 114958787848915856, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_text
+      value: 'Apr. 29th ''18
+
+        Art: Concept.
+
+        Dev.: Environment Generation, Input Manager and Leader Movement'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114958787848915856, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 114958787848915856, guid: f99084f108566a64d8cbe351e53a4bdd,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 91
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f99084f108566a64d8cbe351e53a4bdd, type: 2}
   m_IsPrefabParent: 0

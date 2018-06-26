@@ -1,16 +1,53 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
+    public List<PlayableDirector> playableDirectors;
+    public PlayableDirector current;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    int index;
+
+    private void Start()
+    {
+        index = -1;
+        current = null;
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Forward();
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (current == null)
+            {
+                return;
+            }
+            else
+            {
+                Previous();
+            }
+        }
+    }
+
+    public void Forward()
+    {
+        index++;
+        current = playableDirectors[index];
+        current.Play();
+    }
+
+    public void Previous()
+    {
+        index--;
+        current = playableDirectors[index];
+        current.Play();
+    }
 }
