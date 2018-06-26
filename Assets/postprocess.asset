@@ -54,11 +54,11 @@ MonoBehaviour:
     m_Settings:
       reflection:
         blendType: 0
-        reflectionQuality: 2
-        maxDistance: 195
-        iterationCount: 592
-        stepSize: 8
-        widthModifier: 5
+        reflectionQuality: 0
+        maxDistance: 230
+        iterationCount: 856
+        stepSize: 2
+        widthModifier: 6.4
         reflectionBlur: 0.1
         reflectBackfaces: 1
       intensity:
@@ -71,11 +71,11 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 0
     m_Settings:
-      focusDistance: 5.76
-      aperture: 0.2
+      focusDistance: 4.92
+      aperture: 0.4
       focalLength: 50.21
       useCameraFov: 1
-      kernelSize: 3
+      kernelSize: 0
   motionBlur:
     m_Enabled: 1
     m_Settings:
