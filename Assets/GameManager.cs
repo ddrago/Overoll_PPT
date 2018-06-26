@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void Forward()
     {
+        current.gameObject.SetActive(false);
         index++;
         current = playableDirectors[index];
         current.Play();
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
 
     public void Previous()
     {
+        current.gameObject.SetActive(false);
         index--;
         current = playableDirectors[index];
         current.Play();
