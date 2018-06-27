@@ -9,30 +9,46 @@ public class GameManager : MonoBehaviour
     public List<PlayableDirector> playableDirectors;
     public PlayableDirector current;
 
-    int index;
+    public GameObject charc;
+    public GameObject worker;
+
+    public int index;
 
     private void Start()
     {
         index = -1;
+
+        charc.SetActive(true);
+        worker.SetActive(false);
+
+        foreach (PlayableDirector p in playableDirectors)
+        {
+            p.gameObject.SetActive(false);
+        }
+  
         current = null;
     }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (index == 5)
         {
-            Forward();
+            worker.SetActive(true);
+            Debug.Log("hello");
         }
-
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             if (current == null)
             {
-                return;
+                index++;
+                current = playableDirectors[index];
+                current.gameObject.SetActive(true);
+                current.Play();
             }
             else
             {
-                Previous();
+                charc.gameObject.SetActive(false);
+                Forward();
             }
         }
     }
@@ -42,6 +58,7 @@ public class GameManager : MonoBehaviour
         current.gameObject.SetActive(false);
         index++;
         current = playableDirectors[index];
+        current.gameObject.SetActive(true);
         current.Play();
     }
 
@@ -50,6 +67,7 @@ public class GameManager : MonoBehaviour
         current.gameObject.SetActive(false);
         index--;
         current = playableDirectors[index];
+        current.gameObject.SetActive(true);
         current.Play();
     }
 }
